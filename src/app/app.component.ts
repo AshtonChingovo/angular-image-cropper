@@ -32,8 +32,6 @@ export class AppComponent {
 
   onCrop() {
     this.imagePath = this.result?.imageUrl || this.imagePath;
-    console.log('Cropped image:', this.result?.imageUrl);
-    console.log('Cropped image:', this.imagePath);
   }
 
 }
